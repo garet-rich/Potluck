@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative './lib/dish'
+require './lib/dish'
 
 describe Dish do
     describe '#initialize' do
