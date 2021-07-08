@@ -1,20 +1,39 @@
-# Potluck
+# [Potluck]
 
-## Instructions
+## Project By: [Garet Rich](https://github.com/garet-rich)
 
-* Fork this Repository
-* Clone your forked repo to your computer.
-* Make sure you have `RSpec` installed globally:
-  - `$ gem install rspec`
-  - `$ rspec -v`, if installed you should see something like:
-  ```rb
-    RSpec 3.10
-      - rspec-core 3.10.0
-      - rspec-expectations 3.10.0
-      - rspec-mocks 3.10.0
-      - rspec-rails 4.0.1
-      - rspec-support 3.10.0
-  ```
- - To run the tests: `$ rspec spec'
+## About
+This is a Ruby application to manage a potluck menu through the command line. It was built with TDD principles using RSpec. 
 
-## 
+## In Action
+### Creating a Menu:
+![Creating Menu]
+
+### Running Tests:
+![Running Tests]
+
+## Setup
+Download Instructions: 
+```bash 
+git clone [this file path]
+cd lib
+...
+```
+
+Run Instructions:
+```bash 
+pry
+require './lib/dish'
+require './lib/potluck'
+...
+```
+
+Test Instructions:
+```bash 
+rspec spec
+...
+```
+
+### Technologies Used:
+* Ruby
+* RSpec
