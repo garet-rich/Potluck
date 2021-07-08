@@ -54,7 +54,7 @@ describe Potluck do
             potluck.add_dish(shrimp_scampi)
             potluck.add_dish(salad)
 
-            expect(potluck.menu).to eq true
+            expect(potluck.menu).to eq :breakfast => ["Omelette", "Hash Browns"], :lunch => ["Shimp Scampi", "Salad"]
         end
     end
 

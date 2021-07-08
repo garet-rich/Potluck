@@ -35,7 +35,17 @@ class Potluck
     end
 
     def menu
+        menu = Hash.new
 
+        get_all_category.each do |category|
+            menu[category] = []
+        end
+
+        @dishes.each do |dish|
+            menu[dish.category] << dish.name
+        end
+
+        menu
     end
 
     def ratio(category)
